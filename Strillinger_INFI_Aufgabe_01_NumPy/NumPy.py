@@ -29,3 +29,5 @@ print(a4)
 #Normalverteilt:
 a5 = np.random.normal(0, 100, 100)
 print(a5)
+
+#2.1.1
