@@ -72,9 +72,9 @@ print("==============================")
 print("Maximum:")
 print(np.amax(a5))
 
-#Standartabweichung
+#Standardabweichung
 print("==============================")
-print("Standartabweichung:")
+print("Standardabweichung:")
 print(np.std(a5))
 
 #2.2
