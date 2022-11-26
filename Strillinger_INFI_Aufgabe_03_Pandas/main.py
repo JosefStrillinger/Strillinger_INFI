@@ -12,6 +12,7 @@ base.extend('x' + years)
 df.columns = base
 #print(df.describe())
 
+
 # 2.1
 groth_ibk = df.values[2,3:]
 plt.title("Nächtigungen in Ibk: ")
@@ -149,8 +150,8 @@ plt.show()
 
 # 5 d
 plt.title("Nächtigungen pro Kopf in Angerberg")
-plt.plot(stays_per_person_2020[139-5], "m.")# Angerberg in Excel: Zeile 139 
-print(stays_per_person_2020[139-5])
+plt.plot(stays_per_person_2020[139-6], "m.")# Angerberg in Excel: Zeile 139 
+#print(stays_per_person_2020[139-6])
 plt.xlabel("Gemeinde")
 plt.ylabel("Nächtigungen pro Kopf")
 plt.savefig("img/5_d.png")
