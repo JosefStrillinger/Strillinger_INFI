@@ -128,6 +128,17 @@ sns.boxplot(x = data["Bezirk"], y = stays_per_person_2020, data=data)
 plt.savefig("img/5_b_2.png")
 plt.show()
 
+# Interpretation:
+# Man kann an der Darstellung in Boxplots gut erkennen, dass die Anzahl an Nächtigungen pro Einwohner weit auseinandergeht.
+# Es sind ebenfalls weite Ausreißer zu sehen, was auf besonders Beliebte Nächtigungsorte in dem jeweiligen Bezirk hinweist.
+# Gut zu erkennen ist ebenfalls, dass beu Bezirken mit mehr Einwohnern (Innsbruck, Innsbruck-Land, Kufstein) die Nächtigungen pro Einwohner
+# weit kleiner ausfallen, als bei Bezirken mit weniger Einwohnern.
+# Zu Schluss ist noch zu sehen, dass die Anzahl an Nächtigungen im Jahr 2020 etwas kleiner war, als im Jahr 2018, dies ist auf die Corona - Pandemie
+# zurückzuführen. 
+
+
+
+
 # 5 c
 lowest_ten = stays_per_person_2020.sort_values(ascending=True)
 highest_ten = stays_per_person_2020.sort_values(ascending=False)
