@@ -40,7 +40,7 @@ plt.show()
 
 print("Es gibt einen negativen Zusammenhang zwischen mehr Strom aus nuklearer und solarer Energie" if corr < 0 else "Es gibt einen positiven Zusammenhang zwischen mehr Strom aus nuklearer und solarer Energie" if corr > 0 else "Es gibt keinen negativen Zusammenhang zwischen mehr Strom aus nuklearer und solarer Energie")
 
-#   Durch dies Berechnung des Zusammenhages ist bereits bekannt, dass zwei Energiearten negativ zusammenhängen
+#   Durch die Berechnung des Zusammenhages ist bereits bekannt, dass diese zwei Energiearten (Nucleare Energie und Sonnenkraft) negativ zusammenhängen
 #   Ein negativer Zusammenhang bedeutet, dass wenn es von einer dieser Energiequellen mehr Energie gibt, wird weniger von der anderen benötigt.
 #   Durch das Diagramm wird dieses Ergebnis zusätzlich bestätigt
 
